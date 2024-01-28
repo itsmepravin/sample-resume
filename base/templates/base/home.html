@@ -22,11 +22,18 @@
     <!-- <h2>Home Page of Sample Resume</h2>
     <img src="{% static 'images/me.jpg' %}" alt="My Image" /> -->
 
-    <div class="container">
-      <div class="row">
+    <div class="container d-flex flex-column gap-3">
+      <div class="row g-3">
         <div class="col-md-3">
-          <div class="card card-body">
-            <h2>Hello</h2>
+          <div class="card card-body profile-wrapper">
+            <img
+              class="profile-pic"
+              src="{% static 'images/me.jpg' %}"
+              alt="My Image"
+            />
+            <br />
+            <h4>Hi I am Pravin Singh</h4>
+            <p>I love coding, doing research and collaborating</p>
           </div>
         </div>
         <div class="col-md-9">
